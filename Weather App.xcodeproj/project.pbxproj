@@ -27,6 +27,7 @@
 		C885B3F32CD59FC6008F986E /* Weather App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weather App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C885B4032CD59FC7008F986E /* Weather AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Weather AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C885B40D2CD59FC7008F986E /* Weather AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Weather AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8EBD6792CDB337C0015D82E /* Weather App.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "Weather App.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +76,7 @@
 		C885B3EA2CD59FC6008F986E = {
 			isa = PBXGroup;
 			children = (
+				C8EBD6792CDB337C0015D82E /* Weather App.xcodeproj */,
 				C885B3F52CD59FC6008F986E /* Weather App */,
 				C885B4062CD59FC7008F986E /* Weather AppTests */,
 				C885B4102CD59FC8008F986E /* Weather AppUITests */,
@@ -89,6 +91,11 @@
 				C885B4032CD59FC7008F986E /* Weather AppTests.xctest */,
 				C885B40D2CD59FC7008F986E /* Weather AppUITests.xctest */,
 			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8EBD6822CDB33CB0015D82E /* Products */ = {
+			isa = PBXGroup;
 			name = Products;
 			sourceTree = "<group>";
 		};
@@ -198,6 +205,12 @@
 			preferredProjectObjectVersion = 77;
 			productRefGroup = C885B3F42CD59FC6008F986E /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C8EBD6822CDB33CB0015D82E /* Products */;
+					ProjectRef = C8EBD6792CDB337C0015D82E /* Weather App.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				C885B3F22CD59FC6008F986E /* Weather App */,
